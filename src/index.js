@@ -11,6 +11,7 @@ class Notifications extends Component {
     super(props);
 
     const { data, style } = this.props;
+    console.log(data);
 
     this.state = {
       show: false,

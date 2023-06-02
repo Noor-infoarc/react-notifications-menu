@@ -73,6 +73,7 @@ Card.propTypes = {
     message: PropTypes.any,
     receivedTime: PropTypes.string,
     detailPage: PropTypes.string,
+    markAsRead: PropTypes.bool
   }),
   renderImage: PropTypes.bool,
   cardOption: PropTypes.func,
